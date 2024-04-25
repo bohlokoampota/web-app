@@ -1,0 +1,132 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: smaller;
+  padding: 50px;
+  color: #555;
+  width: 650px;
+  background-color: #f9f9f9; 
+}
+h1 {
+  letter-spacing: 3px;
+  color: #2c7d59; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 12px;
+  color: #333;
+  max-width: 400px; 
+  padding: 0;
+  text-align: left;
+  margin-bottom: 10px; 
+}
+input[type="text"] {
+  width: 80%; 
+  padding: 6px; 
+  border-radius: 6px; 
+  border: 1px solid #2c7d59; 
+  background-color: #f7f7f7; 
+  color: #333; 
+}
+table.popupBox {
+  width: 80%;
+  border: 1px solid #2c7d59; 
+  border-radius: 6px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 2px auto; 
+  top: 2px; 
+}
+
+.popupCell {
+  background-color: #ffffff; 
+}
+
+.popupCell:hover {
+  background-color: #e0f7e0; 
+}
+
+.popupItem {
+  color: #333; 
+  text-decoration: none;
+  font-size: 1.1em; 
+}
+
+h1 {
+  letter-spacing: 4px; 
+  font-size: 1.8em; 
+  color: #2c7d59; 
+  font-weight: bold;
+  text-align: center; 
+}
+
+h2 {
+  letter-spacing: 3px; 
+  font-size: 1.6em; 
+  color: #2c7d59; 
+  font-weight: normal;
+  text-align: center; 
+}
+
+table {
+  width: 550px;
+  padding: 15px; 
+  background-color: #e0f7e0; 
+  font-family: sans-serif;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+td {
+  padding: 10px; 
+}
+
+a {
+  color: #2c7d59; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+table.popupBox {
+  position: absolute;
+  left: 225px;
+  width: 23%;
+  background: #e0f7e0; 
+  border: 1px solid #2c7d59; 
+  border-radius: 5px;
+  display: none; 
+}
+table.popupBox.visible {
+  display: block; 
+}
+
+.popupCell {
+   background-color: #ffffff; 
+}
+
+.popupCell:hover {
+  background-color: #e0f7e0; 
+}
+
+.popupItem {
+  color: #333; 
+  text-decoration: none;
+  font-size: 1.2em; 
+}
+
+input[type="text"] {
+  width: 80%; 
+  padding: 8px; 
+  border-radius: 8px; 
+  border: 1px solid #2c7d59; 
+  background-color: #e0f7e0; 
+  color: #333; 
+}
+
+.container {
+  text-align: center; 
+  width: 60%; 
+}
+
